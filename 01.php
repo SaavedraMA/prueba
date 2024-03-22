@@ -13,6 +13,7 @@ class Producto{
 	public function mostrarProducto(){
 
 		echo "EL producto es: " . $this->nombre. " y su precio es de: " . $this->precio;
+		echo "HOLA";
 
 	}
 }
